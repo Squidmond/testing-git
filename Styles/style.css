@@ -16,20 +16,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: lightgreen;
 }
-p::before{
-    content: 'Hello there.  ';
-    font-weight: bold;
-    color: red;
-    display: block;
+/* Class Selectors */
+.center {
+    text-align: center;
+
 }
-p::after {
-    background-color: black;
-    content: "";
-    width: 100%;
-    height: 1em;
-    display: block;
-}
-/* All li inside navbar class */
-/* all anchors inside li inside nambar class */
 /* ID Selectors #IDName {} */
 /* Media Querries */
